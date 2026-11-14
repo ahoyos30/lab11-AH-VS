@@ -6,6 +6,7 @@ One function per operation, in order.
 """
 
 import math
+
 # First example
 def add(a, b): 
     return a + b
@@ -28,3 +29,15 @@ def exp(a, b):
 
 
 
+# First example
+def add(a, b): a + b
+
+def subtract(a, b): a - b
+
+def multiply(a, b): a * b
+
+
+
+def logarithm(a, b): math.log(b, a)
+
+def exponent(a, b): a ** b
