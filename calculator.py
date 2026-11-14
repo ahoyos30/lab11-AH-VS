@@ -1,3 +1,7 @@
+# https://github.com/ahoyos30/lab11-AH-VS/blob/main/test_calculator.py
+# Partner 1: Andres Hoyos
+# Parnter 2: Varit Seeherunvong
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -13,7 +17,7 @@ def hypotenuse(a, b):
     return math.hypot(a, b)
 def add(a, b): 
     return a + b
-def sub(a, b):
+def subtract(a, b):
     return a - b
 def mul(a, b):
     return a * b

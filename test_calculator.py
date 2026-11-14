@@ -1,3 +1,7 @@
+# https://github.com/ahoyos30/lab11-AH-VS/blob/main/test_calculator.py
+# Partner 1: Andres Hoyos
+# Parnter 2: Varit Seeherunvong
+
 import unittest
 from calculator import *
 
@@ -62,10 +66,10 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(-1, -3), -4)
         self.assertEqual(add(-1, 2), 1)
     def test_subtract(self):
-        self.assertEqual(sub(1, 2), -1)
-        self.assertEqual(sub(3, -1), 4)
-        self.assertNotEqual(sub(1, 2), 3)
-        self.assertEqual(sub(1, 0), 1)
+        self.assertEqual(subtract(1, 2), -1)
+        self.assertEqual(subtract(3, -1), 4)
+        self.assertNotEqual(subtract(1, 2), 3)
+        self.assertEqual(subtract(1, 0), 1)
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
             div(0, 1)
