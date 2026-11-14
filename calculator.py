@@ -18,4 +18,4 @@ def divide(a, b): b / a
 
 def logarithm(a, b): math.log(b, a)
 
-
+def exponent(a, b): a ** b
