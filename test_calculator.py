@@ -74,14 +74,14 @@ class TestCalculator(unittest.TestCase):
             div(0, 0)
     def test_logarithm(self):
         self.assertAlmostEqual(logarithm(10, 10), 1)
-        self.assertAlmostEqual(logarithm(1, 2), 0)
-        self.assertAlmostEqual(logarithm(0.1, 10), -1)
+        self.assertAlmostEqual(logarithm(2, 1), 0)
+        self.assertAlmostEqual(logarithm(10, 0.1), -1)
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
-            logarithm(2, -10)
-            logarithm(2, -1)
+            logarithm(-10, 2)
+            logarithm(-1, 2)
         with self.assertRaises(ZeroDivisionError):
-            logarithm(2, 1)
+            logarithm(1, 2)
 
 # Do not touch this
 if __name__ == "__main__":
