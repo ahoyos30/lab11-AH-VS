@@ -1,6 +1,6 @@
 # https://github.com/ahoyos30/lab11-AH-VS/blob/main/test_calculator.py
 # Partner 1: Andres Hoyos
-# Parnter 2: Varit Seeherunvong
+# Partner 2: Varit Seeherunvong
 
 """
 calculator.py
